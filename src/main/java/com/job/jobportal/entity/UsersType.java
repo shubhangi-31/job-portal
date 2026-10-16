@@ -1,6 +1,6 @@
 package com.job.jobportal.entity;
-
 import jakarta.persistence.*;
+
 import java.util.List;
 
 @Entity

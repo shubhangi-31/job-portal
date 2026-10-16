@@ -1,5 +1,4 @@
 package com.job.jobportal.entity;
-
 import jakarta.persistence.*;
 
 @Entity
@@ -116,6 +115,12 @@ public class RecruiterProfile {
 
     public void setProfilePhoto(String profilePhoto) {
         this.profilePhoto = profilePhoto;
+    }
+
+    @Transient
+    public String getPhotosImagePath() {
+        if (profilePhoto == null) return null;
+        return "/photos/recruiter/" + userAccountId + "/" + profilePhoto;
     }
 
     @Override

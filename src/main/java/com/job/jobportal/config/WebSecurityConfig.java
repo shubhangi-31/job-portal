@@ -1,6 +1,6 @@
 package com.job.jobportal.config;
 
-import com.job.jobportal.service.CustomUserDetailsService;
+import com.job.jobportal.services.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

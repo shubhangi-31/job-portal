@@ -1,5 +1,4 @@
-package com.job.jobportal.service;
-
+package com.job.jobportal.services;
 import com.job.jobportal.entity.UsersType;
 import com.job.jobportal.repository.UsersTypeRepository;
 import org.springframework.stereotype.Service;
