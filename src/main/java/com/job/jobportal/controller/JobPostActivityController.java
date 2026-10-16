@@ -1,6 +1,4 @@
 package com.job.jobportal.controller;
-
-
 import com.job.jobportal.entity.*;
 import com.job.jobportal.services.JobPostActivityService;
 import com.job.jobportal.services.JobSeekerApplyService;
